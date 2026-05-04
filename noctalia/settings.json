@@ -45,7 +45,7 @@
         "backgroundOpacity": 0.93,
         "barType": "simple",
         "capsuleColorKey": "none",
-        "capsuleOpacity": 0.43,
+        "capsuleOpacity": 0.93,
         "contentPadding": 12,
         "density": "default",
         "displayMode": "always_visible",
@@ -79,6 +79,16 @@
         "widgets": {
             "center": [
                 {
+                    "colorizeSystemIcon": "secondary",
+                    "colorizeSystemText": "none",
+                    "customIconPath": "",
+                    "enableColorization": true,
+                    "icon": "rocket",
+                    "iconColor": "none",
+                    "id": "Launcher",
+                    "useDistroLogo": true
+                },
+                {
                     "characterCount": 2,
                     "colorizeIcons": false,
                     "emptyColor": "secondary",
@@ -101,16 +111,6 @@
                 }
             ],
             "left": [
-                {
-                    "colorizeSystemIcon": "secondary",
-                    "colorizeSystemText": "none",
-                    "customIconPath": "",
-                    "enableColorization": true,
-                    "icon": "rocket",
-                    "iconColor": "none",
-                    "id": "Launcher",
-                    "useDistroLogo": true
-                },
                 {
                     "clockColor": "none",
                     "customFont": "",
@@ -141,7 +141,9 @@
                     "textColor": "none",
                     "useMonospaceFont": true,
                     "usePadding": false
-                },
+                }
+            ],
+            "right": [
                 {
                     "compactMode": false,
                     "hideMode": "hidden",
@@ -157,9 +159,7 @@
                     "textColor": "none",
                     "useFixedWidth": false,
                     "visualizerType": "linear"
-                }
-            ],
-            "right": [
+                },
                 {
                     "blacklist": [
                     ],
@@ -180,13 +180,11 @@
                     "unreadBadgeColor": "primary"
                 },
                 {
-                    "deviceNativePath": "__default__",
-                    "displayMode": "graphic-clean",
-                    "hideIfIdle": false,
-                    "hideIfNotDetected": true,
-                    "id": "Battery",
-                    "showNoctaliaPerformance": false,
-                    "showPowerProfiles": false
+                    "applyToAllMonitors": false,
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "Brightness",
+                    "textColor": "none"
                 },
                 {
                     "displayMode": "onhover",
@@ -196,21 +194,13 @@
                     "textColor": "none"
                 },
                 {
-                    "applyToAllMonitors": false,
-                    "displayMode": "onhover",
-                    "iconColor": "none",
-                    "id": "Brightness",
-                    "textColor": "none"
-                },
-                {
-                    "colorizeDistroLogo": false,
-                    "colorizeSystemIcon": "none",
-                    "colorizeSystemText": "none",
-                    "customIconPath": "",
-                    "enableColorization": false,
-                    "icon": "noctalia",
-                    "id": "ControlCenter",
-                    "useDistroLogo": false
+                    "deviceNativePath": "__default__",
+                    "displayMode": "icon-hover",
+                    "hideIfIdle": false,
+                    "hideIfNotDetected": true,
+                    "id": "Battery",
+                    "showNoctaliaPerformance": false,
+                    "showPowerProfiles": false
                 }
             ]
         }
