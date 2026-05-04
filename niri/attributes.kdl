@@ -1,2 +1,5 @@
 // Atributes from Niri
 prefer-no-csd
+
+// Screenshot folder
+screenshot-path "~/Imagens/screenshots/ from %Y-%m-%d %H-%M-%S.png"

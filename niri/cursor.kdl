@@ -1,0 +1,6 @@
+cursor {
+  xcursor-theme "bibata-cursor"
+  xcursor-size 14
+  hide-when-typing
+  hide-after-inactive-ms 10000
+}

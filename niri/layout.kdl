@@ -1,0 +1,46 @@
+layout {
+    gaps 6
+    
+    always-center-single-column
+
+    default-column-width { proportion 0.5; }
+
+    center-focused-column "never"
+
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+        proportion 1.0
+    }
+
+    focus-ring {
+        off
+        width 0
+        active-color "transparent"
+        inactive-color "transparent"
+        // active-gradient from="#80c8ff" to="#c7ff7f" angle=45
+        // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
+    }
+
+    border {
+        on
+
+        width 1.5
+        active-color "#252525"
+        inactive-color "#000000"
+        urgent-color "#9b0000"
+        // active-gradient from="#000000" to="#343434" angle=45
+        // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
+    }
+
+    shadow {
+        softness 30
+        spread 5
+        offset x=0 y=5
+        color "#0007"
+    }
+
+    struts {
+    }
+}
