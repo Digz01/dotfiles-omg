@@ -1,6 +1,6 @@
 // Custom binds
 binds {
-    Mod+P { spawn "noctalia-shell" "ipc" "call" "launcher" "toggle"; }
+    Mod+P { spawn-sh "tofi-drun -c /home/digz/.config/niri/tofi/configA --drun-launch=true"; }
     Mod+V { spawn "noctalia-shell" "ipc" "call" "plugin:clipboard" "toggle"; }
     Mod+E { spawn "nemo"; }
     Mod+B { spawn "brave"; }
