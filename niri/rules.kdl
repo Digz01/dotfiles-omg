@@ -10,6 +10,12 @@ window-rule {
   scroll-factor 5.0
 }
 
+// Discord
+window-rule {
+  match app-id="discord"
+  scroll-factor 0.5
+}
+
 // Brave
 window-rule {
   match app-id="brave"
