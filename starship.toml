@@ -1,1 +1,60 @@
-/home/kovaks/.config/starship.toml
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+$python\
+$time\
+$directory\
+$cmd_duration\
+$git_branch\
+$git_status\
+$character"""
+
+add_newline = false
+command_timeout = 200
+
+[python]
+symbol = ""
+format = '([\[$symbol$virtualenv\] ]($style))'
+style = 'bold yellow'
+detect_extensions = []
+
+[cmd_duration]
+format = '\[[⏱ $duration]($style)\]'
+
+[time]
+disabled = false
+format = '[$time]($style)'
+time_format = '%T'
+style = 'white'
+
+[directory]
+format = '-\[[$path]($style)\]'
+truncation_length = 2
+truncation_symbol = "…/"
+style = 'italic grey'
+read_only = " 🔒"
+
+[git_branch]
+format = " [$symbol$branch]($style)"
+symbol = " "
+style = "purple"
+only_attached = true
+
+[git_status]
+format = '([$all_status$ahead_behind]($style)) '
+style = "bold red"
+conflicted = "="
+ahead = "⇡"
+behind = "⇣"
+diverged = "⇕"
+up_to_date = ""
+untracked = "?"
+stashed = "$"
+modified = "!"
+renamed = "»"
+deleted = "✘"
+ignore_submodules = true
+
+[character]
+success_symbol = "[❯](bold white)"
+error_symbol = "[❯](bold red)"
