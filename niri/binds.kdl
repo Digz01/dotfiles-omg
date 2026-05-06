@@ -2,6 +2,7 @@
 binds {
     Mod+P { spawn-sh "tofi-drun -c /home/digz/.config/niri/tofi/configA --drun-launch=true"; }
     Mod+V { spawn "noctalia-shell" "ipc" "call" "plugin:clipboard" "toggle"; }
+    Mod+X { spawn "noctalia-shell" "ipc" "call" "controlCenter" "toggle"; }
     Mod+E { spawn "nemo"; }
     Mod+B { spawn "brave"; }
     Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
