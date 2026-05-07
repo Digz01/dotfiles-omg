@@ -5,14 +5,14 @@ layout {
     background-color "transparent"
 
     focus-ring {
-        active-color   "#252525"
-        inactive-color "#000000"
+        active-color   "#ffffff"
+        inactive-color "#919191"
         urgent-color   "#ffb4ab"
     }
 
     border {
-        active-color   "#252525"
-        inactive-color "#000000"
+        active-color   "#ffffff"
+        inactive-color "#919191"
         urgent-color   "#ffb4ab"
     }
 

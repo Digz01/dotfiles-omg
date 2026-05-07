@@ -6,7 +6,7 @@
   "matugenScheme": "scheme-monochrome",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
-  "popupTransparency": 0.66,
+  "popupTransparency": 1,
   "dockTransparency": 1,
   "widgetBackgroundColor": "sch",
   "widgetColorMode": "default",
@@ -15,7 +15,7 @@
   "cornerRadius": 10,
   "niriLayoutGapsOverride": 8,
   "niriLayoutRadiusOverride": -1,
-  "niriLayoutBorderSize": -1,
+  "niriLayoutBorderSize": 1,
   "hyprlandLayoutGapsOverride": -1,
   "hyprlandLayoutRadiusOverride": -1,
   "hyprlandLayoutBorderSize": -1,
@@ -59,8 +59,8 @@
   "enabledGpuPciIds": [],
   "showSystemTray": true,
   "systemTrayIconTintMode": "monochrome",
-  "systemTrayIconTintSaturation": 50,
-  "systemTrayIconTintStrength": 135,
+  "systemTrayIconTintSaturation": 56,
+  "systemTrayIconTintStrength": 55,
   "showClock": true,
   "showNotificationButton": true,
   "showBattery": true,
@@ -223,8 +223,8 @@
     "theme": "bibata-cursor",
     "size": 18,
     "niri": {
-      "hideWhenTyping": true,
-      "hideAfterInactiveMs": 3044
+      "hideWhenTyping": false,
+      "hideAfterInactiveMs": 0
     },
     "hyprland": {
       "hideOnKeyPress": false,
@@ -341,8 +341,8 @@
   "dockMaxVisibleApps": 0,
   "dockMaxVisibleRunningApps": 0,
   "dockShowOverflowBadge": true,
-  "notificationOverlayEnabled": false,
-  "notificationPopupShadowEnabled": true,
+  "notificationOverlayEnabled": true,
+  "notificationPopupShadowEnabled": false,
   "notificationPopupPrivacyMode": false,
   "modalDarkenBackground": true,
   "lockScreenShowPowerActions": true,
@@ -365,10 +365,10 @@
   "notificationTimeoutLow": 5000,
   "notificationTimeoutNormal": 5000,
   "notificationTimeoutCritical": 0,
-  "notificationCompactMode": false,
+  "notificationCompactMode": true,
   "notificationPopupPosition": 0,
-  "notificationAnimationSpeed": 1,
-  "notificationCustomAnimationDuration": 400,
+  "notificationAnimationSpeed": 4,
+  "notificationCustomAnimationDuration": 141,
   "notificationHistoryEnabled": true,
   "notificationHistoryMaxCount": 50,
   "notificationHistoryMaxAgeDays": 7,
@@ -377,10 +377,10 @@
   "notificationHistorySaveCritical": true,
   "notificationRules": [],
   "osdAlwaysShowValue": true,
-  "osdPosition": 0,
+  "osdPosition": 1,
   "osdVolumeEnabled": true,
   "osdMediaVolumeEnabled": true,
-  "osdMediaPlaybackEnabled": false,
+  "osdMediaPlaybackEnabled": true,
   "osdBrightnessEnabled": true,
   "osdIdleInhibitorEnabled": true,
   "osdMicMuteEnabled": true,
@@ -388,7 +388,7 @@
   "osdPowerProfileEnabled": false,
   "osdAudioOutputEnabled": true,
   "powerActionConfirm": true,
-  "powerActionHoldDuration": 0.5,
+  "powerActionHoldDuration": 1,
   "powerMenuActions": [
     "reboot",
     "logout",
@@ -429,13 +429,19 @@
         "name": "HDMI-A-1",
         "model": "22B35HM2"
       }
+    ],
+    "notepad": [
+      {
+        "name": "HDMI-A-1",
+        "model": "22B35HM2"
+      }
     ]
   },
   "showOnLastDisplay": {
-    "notifications": true,
+    "notifications": false,
     "dock": false,
-    "osd": true,
-    "toast": true
+    "osd": false,
+    "toast": false
   },
   "niriOutputSettings": {
     "HDMI-A-1": {
@@ -492,6 +498,10 @@
       ],
       "rightWidgets": [
         {
+          "id": "dankTodo",
+          "enabled": true
+        },
+        {
           "id": "clipboard",
           "enabled": true
         },
@@ -520,7 +530,7 @@
       "innerPadding": -1,
       "bottomGap": -1,
       "transparency": 1,
-      "widgetTransparency": 0.86,
+      "widgetTransparency": 1,
       "squareCorners": false,
       "noBackground": false,
       "gothCornersEnabled": false,
@@ -545,7 +555,8 @@
       "removeWidgetPadding": false,
       "iconScale": 1.37,
       "widgetPadding": 8,
-      "clickThrough": false
+      "clickThrough": false,
+      "maximizeDetection": false
     },
     {
       "id": "bar1778114692435",

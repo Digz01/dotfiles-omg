@@ -6,6 +6,4 @@
 cursor {
     xcursor-theme "bibata-cursor"
     xcursor-size 18
-    hide-when-typing
-    hide-after-inactive-ms 3044
 }
