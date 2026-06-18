@@ -1,0 +1,101 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Frostlund",
+  "author": "musimo",
+  "themes": [
+    {
+      "name": "Frostlund (dark)",
+      "appearance": "dark",
+      "style": {
+        "background": "#181d28",
+        "text": "#f0f0f0",
+        "text.muted": "#6f737a",
+        "border": "#2b2d30",
+        "border.variant": "#313438",
+        "element.background": "#26282e",
+        "editor.background": "#181d28",
+        "editor.gutter.background": "#1e1f22",
+        "editor.active_line.background": "#282c37",
+        "editor.line_number": "#4b5059",
+        "editor.active_line_number": "#a1a3ab",
+        "scrollbar.thumb.background": "#393b40",
+        "syntax": {
+          "keyword": {
+            "color": "#7894b5",
+            "font_weight": 500
+          },
+          "function": {
+            "color": "#f0f0f0",
+            "font_weight": 500
+          },
+          "string": {
+            "color": "#97b083",
+            "font_weight": 500
+          },
+          "number": {
+            "color": "#b38dac",
+            "font_weight": 500
+          },
+          "constant": {
+            "color": "#5f758e",
+            "font_weight": 500
+          },
+          "comment": {
+            "color": "#636e87",
+            "font_weight": 500
+          },
+          "comment.doc": {
+            "color": "#5f826b",
+            "font_style": "italic"
+          },
+          "type": {
+            "color": "#87c0d1",
+            "font_weight": 500
+          },
+          "punctuation": {
+            "color": "#87bfcf",
+            "font_weight": 500
+          },
+          "operator": {
+            "color": "#f0f0f0",
+            "font_weight": 500
+          },
+          "attribute": {
+            "color": "#9bb586",
+            "font_weight": 500
+          },
+          "tag": {
+            "color": "#d5b778",
+            "font_weight": 500
+          },
+          "constructor": {
+            "color": "#87bfcf",
+            "font_weight": 500
+          },
+          "regexp": {
+            "color": "#42c3d4",
+            "font_weight": 500
+          },
+          "variable": {
+            "color": "#f0f0f0",
+            "font_weight": 500
+          }
+        },
+        "terminal": {
+          "ansi": {
+            "black": "#1e1f22",
+            "red": "#f75464",
+            "green": "#73bd79",
+            "yellow": "#e2a478",
+            "blue": "#70aeff",
+            "magenta": "#c77dbb",
+            "cyan": "#89b8c2",
+            "white": "#bcbec4"
+          }
+        },
+        "background.appearance": "opaque"
+      }
+    }
+  ],
+  "id": "SN9SISogCQ_cADUtUg4zs"
+}

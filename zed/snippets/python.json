@@ -1,0 +1,7 @@
+{
+  "ifmain": {
+    "prefix": "ifmain",
+    "description": "Insert a if __name__ == '__main__': ...",
+    "body": ["if __name__ == '__main__':", "    $0"]
+  }
+}

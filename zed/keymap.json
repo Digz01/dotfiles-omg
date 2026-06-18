@@ -1,0 +1,62 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-n": "workspace::ToggleLeftDock",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-alt-enter": [
+        "task::Spawn",
+        { "task_name": "r/python(follow venv)" },
+      ],
+      // "ctrl-w": "pane::CloseActiveItem",
+      // "j k": ["workspace::SendKeystrokes", "escape"]
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-j": "terminal_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "RulesLibrary",
+    "bindings": {
+      "ctrl-w": null
+    }
+  },
+  {
+    "context": "SettingsWindow",
+    "bindings": {
+      "ctrl-w": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-w": null
+    }
+  },
+  {
+    "context": "!Editor && !Terminal",
+    "unbind": {
+      "space f": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
+    "unbind": {
+      "space f": "file_finder::Toggle"
+    }
+  }
+]
